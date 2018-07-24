@@ -1,0 +1,35 @@
+#banner {
+    background-image: url(https://2.bp.blogspot.com/-5S1nKQl84go/VrtloJuZFFI/AAAAAAAADTo/JwJNX3ADsGk/s1600/pic_1510798.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+* { 
+    margin: 0;
+}
+
+#about-list-item {
+    list-style: none;
+    font-size: 20pt;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0, 0.01);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-direction: row;
+}
+
+#about-list-item li {
+    margin: 10px;
+}
+
+.skills-interests-container {
+    display:flex;
+    justify-content: center;
+    margin:20px;
+    padding-bottom: 40px;
+    font-size:25px;
+}
